@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import {
     Form,
     Button,
@@ -9,6 +8,7 @@ import {
 
 }
 from 'react-bootstrap';
+import Header from './Header';
 
 class Signup extends Component {
     constructor(){
@@ -41,6 +41,7 @@ class Signup extends Component {
     render(){
         return(
             <div>
+                <Header />
                 <Container>
                     <Row>
                 <Col lg={3} md={3} sm={3} />

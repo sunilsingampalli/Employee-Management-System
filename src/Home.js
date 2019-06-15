@@ -21,39 +21,45 @@ class Home extends Component {
         return(
             <div>
                 <Header />
-            {/* <Container>
-                <Row>
-                    <Col lg={12} md={12} sm={12} xs={12}>
-                <Carousel>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="./img/sliderimage1.jpg"
-                        alt="First slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="./img/sliderimage2.jpg"
-                        alt="Third slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                        />
-                    </Carousel.Item>
-                    </Carousel>
-                    </Col>
-                    </Row>
-                </Container> */}
-
-            </div>
-        );
+                    <Container>
+                        <Row>
+                            <Col lg={12} md={12} sm={12} xs={12} style={{marginTop: "5%"}}>
+                                <Carousel>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="./img/sliderimage1.jpg"
+                                        alt="First slide"
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="./img/sliderimage2.jpg"
+                                        alt="Third slide"
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="./img/sliderimage3.jpg"
+                                        alt="Third slide"
+                                        />
+                                    </Carousel.Item>    
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="./img/sliderimage4.jpeg"
+                                        alt="Third slide"
+                                        />
+                                    </Carousel.Item>   
+                                </Carousel>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+            );
+        }
     }
-}
 
 export default Home;
