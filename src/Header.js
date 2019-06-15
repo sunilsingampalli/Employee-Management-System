@@ -23,7 +23,9 @@ class Header extends Component {
         return(
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="/">
-    <img src ="./img/logo.png" alt="logo" />
+  <img src ="./img/emplogo.png" alt="logo" />
+
+    {/* <img src ="./img/logo.png" alt="logo" /> */}
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
